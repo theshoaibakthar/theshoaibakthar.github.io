@@ -1,0 +1,31 @@
+<section class="certificates-list">
+  {% assign types = "" | split: "" %}
+  {% for cert in site.data.certificates %}
+    {% unless types contains cert.type %}
+      {% assign types = types | push: cert.type %}
+    {% endunless %}
+  {% endfor %}
+
+  {% for type in types %}
+    <h2 class="archive__subtitle">{{ type | capitalize }}</h2>
+
+    {% assign certs_by_type = site.data.certificates | where: "type", type | sort: "date" | reverse %}
+    {% for cert in certs_by_type %}
+        <div class="list__item">
+          <article class="archive__item">
+            <h3 class="archive__item-title">
+              {% if cert.url %}
+                <a href="{{ cert.url }}" target="_blank" rel="noopener noreferrer">{{ cert.name }}</a>
+              {% else %}
+                {{ cert.name }}
+              {% endif %}
+            </h3>
+            <p class="page__meta">{{ cert.issuer }}{% if cert.date %} — <time datetime="{{ cert.date }}">{{ cert.date | date: "%B %d, %Y" }}</time>{% endif %}</p>
+            <div class="archive__item-teaser">
+              <img src="{{ site.baseurl }}/{{ cert.image }}" alt="{{ cert.name }}" style="max-width:280px;display:block;margin-top:0.5rem;">
+            </div>
+          </article>
+        </div>
+      {% endfor %}
+    {% endfor %}
+  </section>

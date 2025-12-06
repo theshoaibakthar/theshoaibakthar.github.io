@@ -1,0 +1,28 @@
+---
+title: "Danny's Diner SQL Case Study"
+date: 2024-10-15
+category: "8 Week SQL Challenge"
+excerpt: "Analyzed customer behavior and sales for a Japanese diner using PostgreSQL. Tackled real-world questions with CTEs and subqueries. Revealed purchase patterns and visit frequency. A hands-on SQL storytelling challenge."
+collection: portfolio
+---
+
+<img src='/images/portfolio/dd.png'>
+
+Business Context: A restaurant needs customer insights to drive loyalty program decisions.
+
+SQL Skills Demonstrated:
+
+- Complex JOINs (LEFT, INNER) across multiple tables
+- Window functions (DENSE_RANK, RANK) for ranking and partitioning
+- Date-based filtering and aggregations
+- CASE statements for conditional logic
+- CTEs (Common Table Expressions) for query optimization
+- Advanced point calculation logic with business rules
+
+Key Accomplishments:
+
+- Solved 10 core questions covering customer spending, visit frequency, and preferences
+- Implemented sophisticated loyalty point system with time-based multipliers
+- Created member status indicators with membership timeline analysis
+- Generated denormalized views for business intelligence
+

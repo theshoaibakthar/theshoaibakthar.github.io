@@ -1,0 +1,27 @@
+---
+layout: archive
+title: "Portfolio"
+permalink: /portfolio/
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign sorted_portfolio = site.portfolio | sort: "date" | reverse %}
+{% assign categories = "" | split: "" %}
+
+{% for post in sorted_portfolio %}
+  {% unless categories contains post.category %}
+    {% assign categories = categories | push: post.category %}
+  {% endunless %}
+{% endfor %}
+
+{% for category in categories %}
+  <h2 class="archive__subtitle">{{ category }}</h2>
+  
+  {% for post in sorted_portfolio %}
+    {% if post.category == category %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
