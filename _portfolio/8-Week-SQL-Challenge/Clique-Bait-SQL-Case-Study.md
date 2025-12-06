@@ -1,11 +1,15 @@
 ---
-title: "Clique Bait SQL Case Study"
+title: Clique Bait SQL Case Study
 date: 2024-09-15
-category: "8 Week SQL Challenge"
-excerpt: "Used SQL to evaluate ad performance and user behavior for an online seafood store. Found a 23% lift in purchases from ad engagement. Identified top campaigns and provided optimization strategies. A marketing-focused analytics project."
+category: 8 Week SQL Challenge
+excerpt: Used SQL to evaluate ad performance and user behavior for an online seafood store. Found a 23% lift in purchases from ad engagement. Identified top campaigns and provided optimization strategies.
 collection: portfolio
 ---
+[GitHub](https://github.com/theshoaibakthar/8-Week-SQL-Challenge/tree/main/6_Clique_Bait)
 
 <img src='/images/portfolio/cb.png'>
 
+A marketing-focused analytics project.
+
 Used SQL to evaluate ad performance and user behavior for an online seafood store. Found a 23% lift in purchases from ad engagement. Identified top campaigns and provided optimization strategies. A marketing-focused analytics project.
+
