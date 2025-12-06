@@ -39,13 +39,13 @@ The dataset used for this project was sourced from Kaggle. It includes detailed 
 
 ## Power BI Dashboard
 
-![Sales Dashboard](images/portfolio/Global-Superstore-Sales-Dashboard/page1.png)
+![Sales Dashboard](/images/portfolio/Global-Superstore-Sales-Dashboard/page1.png)
 
-![Forecast](images/portfolio/Global-Superstore-Sales-Dashboard/page2.png)
+![Forecast](/images/portfolio/Global-Superstore-Sales-Dashboard/page2.png)
 
-![Decomposition chart](images/portfolio/Global-Superstore-Sales-Dashboard/page3.png)
+![Decomposition chart](/images/portfolio/Global-Superstore-Sales-Dashboard/page3.png)
 
-![Sales comparison](images/portfolio/Global-Superstore-Sales-Dashboard/page4.png)
+![Sales comparison](/images/portfolio/Global-Superstore-Sales-Dashboard/page4.png)
 
 ## Conclusion
 

@@ -43,11 +43,11 @@ The project was completed through the following steps:
 
 ## Power BI Dashboard
 
-![](images/portfolio/HR-Analytics-Dashboard/HR_Dashboard.png)
+![](/images/portfolio/HR-Analytics-Dashboard/HR_Dashboard.png)
 
-![](images/portfolio/HR-Analytics-Dashboard/Employee_Details.png)
+![](/images/portfolio/HR-Analytics-Dashboard/Employee_Details.png)
 
-![](images/portfolio/HR-Analytics-Dashboard/Leave_Balance_Analysis.png)
+![](/images/portfolio/HR-Analytics-Dashboard/Leave_Balance_Analysis.png)
 
 ## Dashboard Insights
 

@@ -22,7 +22,7 @@ Kaggle Dataset: Provided comprehensive information on Pokémon, including stats,
 
 ## Power BI Dashboard
 
-![](images/portfolio/PowerBI-Pokedex/PowerBI-Pokedex-Dashboard.png)
+![](/images/portfolio/PowerBI-Pokedex/PowerBI-Pokedex-Dashboard.png)
 
 ## Steps Followed
 
