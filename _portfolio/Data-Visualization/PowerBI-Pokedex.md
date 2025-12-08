@@ -1,6 +1,7 @@
 ---
 title: Power BI Pokedex
 date: 2024-08-11
+permalink: /portfolio/PowerBI-Pokedex/
 category: Data Visualization
 excerpt: Created a Power BI dashboard inspired by Pokémon's Pokedex. Integrated external data to build interactive profiles and visuals. Designed a fun, game-style user experience.<br><br><img src='/images/portfolio/PowerBI-Pokedex/PowerBI-Pokedex-Tweet.png'>
 collection: portfolio
