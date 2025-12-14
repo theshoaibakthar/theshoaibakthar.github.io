@@ -26,7 +26,7 @@ The project was completed using Microsoft Fabric’s Data Factory, Lakehouse, Wa
 
 ## Fabric Solution Architecture
 
-![](images/portfolio/NYC-Yellow-Taxi-Data-Project/NYC-Yellow-Taxi-Fabric-Solution-Architecture.png)
+![](/images/portfolio/NYC-Yellow-Taxi-Data-Project/NYC-Yellow-Taxi-Fabric-Solution-Architecture.png)
 
 - A metadata table called `processing_log` will store information about the data processed.
 - Data in the staging layer will be deleted prior to any new data load.
