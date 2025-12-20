@@ -6,7 +6,9 @@ category: Data Visualization
 excerpt: Built a Power BI dashboard to analyze global sales by region, category, and time. Included dynamic filters, forecasts, and decomposition trees. Enabled trend discovery and strategic comparison.
 collection: portfolio
 ---
-[GitHub](https://github.com/theshoaibakthar/PowerBI-Projects/tree/main/Global_Superstore_Sales) [LinkedIn Post](https://www.linkedin.com/posts/datawithshoaib_globalsuperstore-activity-7233316298473005056-KeGZ)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/theshoaibakthar/PowerBI-Projects/tree/main/Global_Superstore_Sales)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)](https://www.linkedin.com/posts/datawithshoaib_globalsuperstore-activity-7233316298473005056-KeGZ)
 
 ## Introduction
 

@@ -6,7 +6,9 @@ category: Data Analytics
 excerpt: Explored Walmart transaction data to uncover sales trends, top products, and customer segments. Highlighted category performance and optimization areas. Used SQL CTEs for efficient querying.
 collection: portfolio
 ---
-[GitHub](https://github.com/theshoaibakthar/SQL-Projects/tree/main/Walmart-Sales-Analysis) [LinkedIn Post](https://www.linkedin.com/posts/datawithshoaib_walmart-sales-analysis-activity-7228384763537997824-TWwE)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/theshoaibakthar/SQL-Projects/tree/main/Walmart-Sales-Analysis)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)](https://www.linkedin.com/posts/datawithshoaib_walmart-sales-analysis-activity-7228384763537997824-TWwE)
 
 <img src='/images/portfolio/ws.png'>
 

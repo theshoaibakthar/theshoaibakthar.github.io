@@ -6,7 +6,9 @@ category: 8 Week SQL Challenge
 excerpt: Analyzed customer behavior and sales for a Japanese diner using PostgreSQL. Tackled real-world questions with CTEs and subqueries. Revealed purchase patterns and visit frequency.
 collection: portfolio
 ---
-[GitHub](https://github.com/theshoaibakthar/8-Week-SQL-Challenge/tree/main/1_Dannys_Diner)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/theshoaibakthar/8-Week-SQL-Challenge/tree/main/1_Dannys_Diner)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)]()
 
 <img src='/images/portfolio/dd.png'>
 

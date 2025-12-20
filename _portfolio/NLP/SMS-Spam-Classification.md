@@ -6,7 +6,9 @@ category: NLP
 excerpt: "A comprehensive spam detection system implementing multiple text classification approaches including Bag of Words (BOW), \rTF-IDF Vectorization with Multinomial Naive Bayes, \rWord2Vec with Random Forest Classifier"
 collection: portfolio
 ---
-[GitHub](https://github.com/theshoaibakthar/NLP-Projects/tree/main/SMS-Spam-Classification)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/theshoaibakthar/NLP-Projects/tree/main/SMS-Spam-Classification)
+<!-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)]() -->
 
 This project implements and compares different Natural Language Processing (NLP) techniques for SMS spam classification using various text vectorization methods and machine learning models.
 

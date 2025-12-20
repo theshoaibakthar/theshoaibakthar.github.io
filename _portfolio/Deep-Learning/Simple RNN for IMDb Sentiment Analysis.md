@@ -6,6 +6,10 @@ category: Deep Learning
 excerpt: Developed an end-to-end deep learning project using a simple RNN on the IMDb movie reviews dataset.
 collection: portfolio
 ---
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/theshoaibakthar/Deep-Learning-Projects/tree/main/Simple-RNN-IMDb)
+<!-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)]() -->
+
 ## Introduction
 
 An end-to-end deep learning project using a simple RNN. The dataset used is the IMDb dataset, which consists of movie reviews. The goal is to use the text reviews as input and predict output labels indicating whether the review is positive or negative using a simple RNN. The primary objective of this project is to implement and analyze a **Simple RNN** on the IMDb dataset.

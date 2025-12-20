@@ -3,10 +3,16 @@ title: Power BI Pokedex
 date: 2024-08-11
 permalink: /portfolio/PowerBI-Pokedex/
 category: Data Visualization
-excerpt: Created a Power BI dashboard inspired by Pokémon's Pokedex. Integrated external data to build interactive profiles and visuals. Designed a fun, game-style user experience.<br><br><img src='/images/portfolio/PowerBI-Pokedex/PowerBI-Pokedex-Tweet.png'>
+excerpt: Created a Power BI dashboard inspired by Pokémon's Pokedex. Integrated external data to build interactive profiles and visuals. Designed a fun, game-style user experience.
 collection: portfolio
 ---
-[GitHub](https://github.com/theshoaibakthar/PowerBI-Projects/tree/main/Pokedex) [LinkedIn Post](https://www.linkedin.com/posts/datawithshoaib_datascience-powerbi-pokemon-activity-7205616626161864704-g3K5)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/theshoaibakthar/PowerBI-Projects/tree/main/Pokedex)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)](https://www.linkedin.com/posts/datawithshoaib_datascience-powerbi-pokemon-activity-7205616626161864704-g3K5)
+
+<img src='/images/portfolio/PowerBI-Pokedex/PowerBI-Pokedex-Tweet.png'>
+
+> Here's a tweet from official Microsoft Power BI account on X about my post about Power BI Pokedex.
 
 ## Project Overview
 

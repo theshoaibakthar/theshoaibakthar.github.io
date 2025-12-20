@@ -6,7 +6,9 @@ category: Data Visualization
 excerpt: Built a Power BI dashboard to visualize headcount, salaries, leave data, and demographics. Used DAX and Power Query for dynamic insights. Supports strategic HR decisions through clear, interactive visuals.
 collection: portfolio
 ---
-[GitHub](https://github.com/theshoaibakthar/PowerBI-Projects/tree/main/HR-Analytics) [LinkedIn Post](https://www.linkedin.com/posts/datawithshoaib_hranalytics-powerbi-datavisualization-activity-7195373907686694912-WDM8)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/theshoaibakthar/PowerBI-Projects/tree/main/HR-Analytics)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)](https://www.linkedin.com/posts/datawithshoaib_hranalytics-powerbi-datavisualization-activity-7195373907686694912-WDM8)
 
 ## Project Overview
 

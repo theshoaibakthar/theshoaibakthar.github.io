@@ -6,7 +6,8 @@ category: Data Visualization
 excerpt: Built a Power BI report analyzing sales, RFM segments, and customer behavior. Uncovered that 20% of customers drive 49% of sales. Identified high returns in Office Supplies and weak new customer acquisition.
 collection: portfolio
 ---
-[GitHub](https://github.com/theshoaibakthar/PowerBI-Projects/tree/main/Furniture%20Pro%20and%20Co.%20Retailers)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/theshoaibakthar/PowerBI-Projects/tree/main/Furniture%20Pro%20and%20Co.%20Retailers)
 
 <img src='/images/portfolio/furnpro-pbi.png'>
 

@@ -6,6 +6,10 @@ category: Data Engineering
 excerpt: A complete end-to-end data engineering and analytics solution implemented using Microsoft Fabric for NYC Yellow Taxi trip data (January– October 2025)
 collection: portfolio
 ---
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/theshoaibakthar/Fabric-Projects/tree/main/NYC-Yellow-Taxi-Data-Project)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)](https://www.linkedin.com/posts/theshoaibakthar_microsoftfabric-dataengineering-analytics-activity-7406173686623375360-cVfE?utm_source=share&utm_medium=member_desktop&rcm=ACoAADIXWPgB3o5Wgjw5IPYhjP0jJ8OhSknHvh4)
+
 This project demonstrates a complete end-to-end data engineering and analytics solution implemented using Microsoft Fabric for NYC Yellow Taxi trip data (January– October 2025). The solution includes Lakehouse ingestion, Warehouse staging and presentation modeling, metadata-driven pipelines, SQL-based transformations, orchestration automation, and Power BI reporting.
 
 ## Project Overview
