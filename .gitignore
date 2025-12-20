@@ -6,3 +6,5 @@ _source/*_cache
 _drafts/
 _archives/
 .obsidian/
+Excalidraw/
+.vscode/

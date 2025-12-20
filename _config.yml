@@ -11,7 +11,7 @@ title                    : "Shoaib Akthar"
 title_separator          : "-"
 name                     : &name "Shoaib Akthar"
 description              : &description "Shoaib's portfolio and personal website"
-url                      : https://theshoaibakthar.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://theshoaibakthar.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "theshoaibakthar/theshoaibakthar.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -183,15 +183,15 @@ kramdown:
 
 # Collections
 collections:
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  research:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
+  # publications:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # research:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # talks:
+  #   output: true
+  #   permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
