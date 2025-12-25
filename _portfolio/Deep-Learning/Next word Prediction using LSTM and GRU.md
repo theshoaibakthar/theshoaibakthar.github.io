@@ -266,7 +266,7 @@ The application is deployed using **Streamlit Cloud** by connecting the GitHub r
 
 You can access the deployed application [here](link)
 
-![](images/portfolio/Next-word-Prediction/Pasted%20image%2020251225184109.png)
+![](/images/portfolio/Next-word-Prediction/Pasted%20image%2020251225184109.png)
 _screenshot of the streamlit app_
 
 ## Conclusion
