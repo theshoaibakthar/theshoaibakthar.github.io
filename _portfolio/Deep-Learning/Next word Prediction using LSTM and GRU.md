@@ -9,6 +9,7 @@ collection: portfolio
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/theshoaibakthar/Deep-Learning-Projects/tree/main/Next-Word-Prediction-LSTM-GRU)
 <!-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)]() -->
+[![Demo](https://img.shields.io/badge/App-Demo-FF4B4B?logo=streamlit&logoColor=white)](https://nvp-lstm-gru.streamlit.app/)
 
 ## Introduction
 
@@ -264,7 +265,7 @@ To deploy the app on Streamlit Cloud, all required Python libraries are listed i
 
 The application is deployed using **Streamlit Cloud** by connecting the GitHub repository to the Streamlit platform. After selecting the repository, branch, and main app file, Streamlit Cloud automatically builds and deploys the application.
 
-You can access the deployed application [here](link)
+You can access the deployed application [here](https://nvp-lstm-gru.streamlit.app/)
 
 ![](/images/portfolio/Next-word-Prediction/Pasted%20image%2020251225184109.png)
 _screenshot of the streamlit app_
