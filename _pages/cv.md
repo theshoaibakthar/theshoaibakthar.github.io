@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-I am a Data Analyst with 3.5 years work experience in Data Analytics. Proven experience in building end-to-end Power BI reports, automating data workflows, and optimizing reports to deliver insights that drive cost savings, save time and improve efficiency at a Fortune 500 healthcare company using technologies including Power BI, Python, SQL and Excel. 
+Data Analyst with 3.5 years work experience in Data Analytics. Proven experience in building end-to-end Power BI reports, automating data workflows, and optimizing reports to deliver insights that drive cost savings, save time and improve efficiency at a Fortune 500 healthcare company using technologies including Power BI, Python, SQL and Excel. 
 
 Education
 ======
