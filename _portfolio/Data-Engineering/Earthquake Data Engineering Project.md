@@ -48,7 +48,7 @@ The Bronze layer pipeline was implemented in Notebook 01, focusing on ingesting 
 
 Files in bronze layer:
 
-![](images/portfolio/Eq-DE-Project/Pasted%20image%2020260105123444.png)
+![](/images/portfolio/Eq-DE-Project/Pasted%20image%2020260105123444.png)
 
 ## Step 2: Silver Layer Processing (Notebook 02)
 
@@ -65,7 +65,7 @@ Notebook 02 handled the Silver layer processing, transforming the raw JSON into 
 
 Final table in silver layer:
 
-![](images/portfolio/Eq-DE-Project/Pasted%20image%2020260105123342.png)
+![](/images/portfolio/Eq-DE-Project/Pasted%20image%2020260105123342.png)
 
 ## Step 3: Gold Layer Processing (Notebook 03)
 
@@ -84,7 +84,7 @@ The Gold layer refined the data for specific BI consumption by adding business-r
 
 Final table in gold layer:
 
-![](images/portfolio/Eq-DE-Project/Pasted%20image%2020260105123053.png)
+![](/images/portfolio/Eq-DE-Project/Pasted%20image%2020260105123053.png)
 
 ## Step 4: Pipeline Orchestration (Data Factory)
 
@@ -108,11 +108,12 @@ I created a **Data Factory pipeline** named `Earthquake Data Pipeline` to automa
 3. **Automation:** By defining these dynamic parameters and chaining the tasks, I established a complete ETL workflow that could be **scheduled to run daily**, automating the ingestion and refinement of new earthquake data.
 
 Schedule:
-![](images/portfolio/Eq-DE-Project/Pasted%20image%2020260105122045.png)
+
+![](/images/portfolio/Eq-DE-Project/Pasted%20image%2020260105122045.png)
 
 Overall pipeline:
 
-![](images/portfolio/Eq-DE-Project/Pasted%20image%2020260105121709.png)
+![](/images/portfolio/Eq-DE-Project/Pasted%20image%2020260105121709.png)
 
 ## Step 5: Business Intelligence Reporting (Power BI)
 
@@ -127,11 +128,11 @@ The final step involved creating a Power BI report using the Gold layer data, en
 
 Final Power BI report:
 
-![](images/portfolio/Eq-DE-Project/Pasted%20image%2020260105121519.png)
+![](/images/portfolio/Eq-DE-Project/Pasted%20image%2020260105121519.png)
 
 Final Workspace files:
 
-![](images/portfolio/Eq-DE-Project/Pasted%20image%2020260105122340.png)
+![](/images/portfolio/Eq-DE-Project/Pasted%20image%2020260105122340.png)
 
 All notebooks are available in my GitHub repository of this project.
 
