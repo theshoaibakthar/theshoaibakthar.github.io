@@ -3,7 +3,6 @@ layout: post
 title: Prepare for an AI development project
 date: 2025-04-30
 permalink: /posts/2025/04/prepare-for-an-ai-development-project/
-excerpt_separator: <!--more-->
 tags:
   - Azure
   - GenAI
@@ -16,8 +15,6 @@ categories: ["Azure"]
 
 Use Azure AI Foundry portal to create a hub and project to build an AI solution.
 
-<!--more-->
-
 In order to prepare for an AI development project, go to Azure AI Foundry portal.
 
 https://ai.azure.com
@@ -28,7 +25,7 @@ On the home page, we have an option to create project, click on it.
 
 It will automatically create new resources and hub (if we don't have one).
 
-![img]({{ site.baseurl }}/assets/images/notes/ai-foundry-project-creation.png)
+![img]({{ site.baseurl }}/assets/img/posts/ai-foundry-project-creation.png)
 
 Here, we can see:
 - Hub name

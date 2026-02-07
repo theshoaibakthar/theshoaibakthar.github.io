@@ -3,7 +3,6 @@ layout: post
 title: Choose and deploy a language model
 date: 2025-05-01
 permalink: /posts/2025/05/choose-and-deploy-a-language-model/
-excerpt_separator: <!--more-->
 tags:
   - Azure
   - GenAI
@@ -16,15 +15,13 @@ categories: ["Azure"]
 
 Use Azure AI Foundry portal to choose, compare and deploy the models from model catalog.
 
-<!--more-->
-
 Create a new project.
 
 ## Configure Azure AI Inference service deployment
 
 Enable this option under preview features.
 
-![img](/assets/images/notes/enable-azureai-model-inference-service.png)
+![img](/assets/img/posts/enable-azureai-model-inference-service.png)
 
 ## Model catalog
 
