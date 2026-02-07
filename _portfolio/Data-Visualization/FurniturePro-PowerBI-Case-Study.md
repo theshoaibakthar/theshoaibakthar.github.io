@@ -9,7 +9,7 @@ collection: portfolio
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/theshoaibakthar/PowerBI-Projects/tree/main/Furniture%20Pro%20and%20Co.%20Retailers)
 
-<img src='/assets/img/portfolio/furnpro-pbi.png'>
+<img src='/assets/img/portfolio/furnpro-pbi.png' alt="Furniture Pro PowerBI">
 
 ## Project Overview
 

@@ -10,7 +10,7 @@ collection: portfolio
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/theshoaibakthar/8-Week-SQL-Challenge/tree/main/6_Clique_Bait)
 <!-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)]() -->
 
-<img src='/assets/img/portfolio/cb.png'>
+<img src='/assets/img/portfolio/cb.png' alt="Clique Bait">
 
 A marketing-focused analytics project.
 

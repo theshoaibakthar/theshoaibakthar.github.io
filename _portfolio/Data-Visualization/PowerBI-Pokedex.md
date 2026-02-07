@@ -10,7 +10,7 @@ collection: portfolio
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/theshoaibakthar/PowerBI-Projects/tree/main/Pokedex)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)](https://www.linkedin.com/posts/datawithshoaib_datascience-powerbi-pokemon-activity-7205616626161864704-g3K5)
 
-<img src='/assets/img/portfolio/PowerBI-Pokedex/PowerBI-Pokedex-Tweet.png'>
+<img src='/assets/img/portfolio/PowerBI-Pokedex/PowerBI-Pokedex-Tweet.png' alt="PowerBI Pokedex Tweet">
 
 > Here's a tweet from official Microsoft Power BI account on X about my post about Power BI Pokedex.
 

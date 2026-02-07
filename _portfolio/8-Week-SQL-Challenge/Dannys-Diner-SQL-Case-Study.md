@@ -8,9 +8,9 @@ collection: portfolio
 ---
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/theshoaibakthar/8-Week-SQL-Challenge/tree/main/1_Dannys_Diner)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)]()
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)](https://linkedin.com/in/theshoaibakthar)
 
-<img src='/assets/img/portfolio/dd.png'>
+<img src='/assets/img/portfolio/dd.png' alt="Danny's Diner">
 
 Business Context: A restaurant needs customer insights to drive loyalty program decisions.
 

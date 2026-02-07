@@ -164,5 +164,5 @@ order: 7
 
 I'm passionate about continuous learning and knowledge sharing. When not immersed in data, you'll find me exploring cutting-edge technologies, blogging about data science and analytics, or tinkering with exciting personal projects.
 
-<p><a href="/portfolio" class="btn btn--primary"><i class="fas fa-folder-open"></i> Explore My Portfolio</a> | <a href="/posts" class="btn btn--info"><i class="fas fa-blog"></i> Read My Blog</a></p>
+<p><a href="/portfolio" class="btn btn--primary"><i class="fas fa-folder-open"></i> Explore My Portfolio</a> | <a href="/" class="btn btn--info"><i class="fas fa-blog"></i> Read My Blog</a></p>
 

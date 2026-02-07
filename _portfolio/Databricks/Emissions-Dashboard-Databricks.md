@@ -7,8 +7,8 @@ excerpt: Implemented SQL queries to create the US Emissions Analysis dashboard i
 collection: portfolio
 toc: true
 ---
-[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)]()
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)]()
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/theshoaibakthar)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)](https://linkedin.com/in/theshoaibakthar)
 
 ## Overview
 

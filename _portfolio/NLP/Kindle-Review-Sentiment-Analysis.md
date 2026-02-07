@@ -131,6 +131,6 @@ data = pd.read_csv('all_kindle_review.csv')
 ## Acknowledgements
 
 - Dataset source: Amazon Product Data compiled by Julian McAuley and team at UC San Diego (UCSD)
-- Source: [Amazon Product Data – UCSD](http://jmcauley.ucsd.edu/data/amazon/)
+- Source: [Amazon Product Data – UCSD](https://jmcauley.ucsd.edu/data/amazon/)
 - All rights and licenses belong to the original authors
 
