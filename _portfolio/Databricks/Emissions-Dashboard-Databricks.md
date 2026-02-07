@@ -2,9 +2,10 @@
 title: US Emissions Analysis Dashboard using Databricks
 date: 2026-02-01
 permalink: /portfolio/Emissions-Dashboard-Databricks/
-category: Databricks
+categories: [Projects, Databricks]
 excerpt: Implemented SQL queries to create the US Emissions Analysis dashboard in Databricks
 collection: portfolio
+toc: true
 ---
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?logo=github)]()
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Post-blue?logo=linkedin)]()

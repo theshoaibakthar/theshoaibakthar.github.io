@@ -8,16 +8,48 @@ layout: page
 {% assign HEAD_PREFIX = 'h_' %}
 {% assign LIST_PREFIX = 'l_' %}
 
+{% assign top_level_categories = "" | split: "" %}
+
+<!-- Collect from Posts -->
+{% for post in site.posts %}
+  {% if post.categories.size > 0 %}
+    {% assign top_level_categories = top_level_categories | push: post.categories[0] %}
+  {% endif %}
+{% endfor %}
+
+<!-- Collect from Portfolio -->
+{% for item in site.portfolio %}
+  {% if item.categories.size > 0 %}
+    {% assign top_level_categories = top_level_categories | push: item.categories[0] %}
+  {% endif %}
+{% endfor %}
+
+{% assign all_categories = top_level_categories | uniq | sort %}
+
 {% assign group_index = 0 %}
 
-{% assign sort_categories = site.categories | sort %}
-
-{% for category in sort_categories %}
-  {% assign category_name = category | first %}
-  {% assign posts_of_category = category | last %}
+{% for category in all_categories %}
+  {% assign category_name = category %}
+  {% assign posts_of_category = site.categories[category_name] %}
+  {% if posts_of_category == nil %}
+    {% assign posts_of_category = "" | split: "" %}
+  {% endif %}
   {% assign first_post = posts_of_category | first %}
 
-  {% if category_name == first_post.categories[0] %}
+  {% comment %}
+    Calculate portfolio items for this category
+  {% endcomment %}
+  
+  {% assign portfolio_items_for_cat = "" | split: "" %}
+  {% for item in site.portfolio %}
+    {% if item.categories contains category_name %}
+      {% assign portfolio_items_for_cat = portfolio_items_for_cat | push: item %}
+    {% endif %}
+  {% endfor %}
+  
+  {% assign total_items_count = posts_of_category.size | plus: portfolio_items_for_cat.size %}
+
+  {% if total_items_count > 0 %}
     {% assign sub_categories = '' | split: '' %}
 
     {% for post in posts_of_category %}
@@ -29,7 +61,16 @@ layout: page
       {% endif %}
     {% endfor %}
 
-    {% assign sub_categories = sub_categories | sort %}
+    {% for item in portfolio_items_for_cat %}
+      {% assign second_category = item.categories[1] %}
+      {% if second_category %}
+        {% unless sub_categories contains second_category %}
+           {% assign sub_categories = sub_categories | push: second_category %}
+        {% endunless %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign sub_categories = sub_categories | sort | uniq %}
     {% assign sub_categories_size = sub_categories | size %}
 
     <div class="card categories">
@@ -45,7 +86,6 @@ layout: page
           <a href="{{ _category_url | relative_url }}" class="mx-2">{{ category_name }}</a>
 
           <!-- content count -->
-          {% assign top_posts_size = site.categories[category_name] | size %}
           <span class="text-muted small font-weight-light">
             {% if sub_categories_size > 0 %}
               {{ sub_categories_size }}
@@ -63,9 +103,9 @@ layout: page
               ,
             {% endif %}
 
-            {{ top_posts_size }}
+            {{ total_items_count }}
 
-            {% if top_posts_size > 1 %}
+            {% if total_items_count > 1 %}
               {{
                 site.data.locales[lang].categories.post_measure.plural
                 | default: site.data.locales[lang].categories.post_measure
@@ -110,10 +150,18 @@ layout: page
                 <a href="{{ _sub_ctg_url | relative_url }}" class="mx-2">{{ sub_category }}</a>
 
                 {% assign posts_size = site.categories[sub_category] | size %}
-                <span class="text-muted small font-weight-light">
-                  {{ posts_size }}
+                {% assign portfolio_sub_size = 0 %}
+                {% for item in site.portfolio %}
+                  {% if item.categories contains sub_category %}
+                    {% assign portfolio_sub_size = portfolio_sub_size | plus: 1 %}
+                  {% endif %}
+                {% endfor %}
+                {% assign total_sub_items_count = posts_size | plus: portfolio_sub_size %}
 
-                  {% if posts_size > 1 %}
+                <span class="text-muted small font-weight-light">
+                  {{ total_sub_items_count }}
+
+                  {% if total_sub_items_count > 1 %}
                     {{
                       site.data.locales[lang].categories.post_measure.plural
                       | default: site.data.locales[lang].categories.post_measure

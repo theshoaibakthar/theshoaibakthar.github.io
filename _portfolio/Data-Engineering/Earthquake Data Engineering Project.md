@@ -2,7 +2,7 @@
 title: Earthquake Data Engineering Project
 date: 2026-01-03
 permalink: /portfolio/Earthquake-Data-Engineering-Project-Fabric/
-category: Data Engineering
+categories: [Projects, Data Engineering]
 excerpt: A complete end-to-end data engineering and analytics solution implemented using Microsoft Fabric for Earthquake data from USGS
 collection: portfolio
 ---

@@ -2,7 +2,7 @@
 title: HR Analytics Dashboard
 date: 2024-04-12
 permalink: /portfolio/HR-Analytics-Dashboard/
-category: Data Visualization
+categories: [Projects, Data Visualization]
 excerpt: Built a Power BI dashboard to visualize headcount, salaries, leave data, and demographics. Used DAX and Power Query for dynamic insights. Supports strategic HR decisions through clear, interactive visuals.
 collection: portfolio
 ---

@@ -187,9 +187,10 @@ defaults:
       path: ""
       type: portfolio
     values:
-      layout: page
+      layout: portfolio_project
       comments: true
       share: true
+      toc: true
   - scope:
       path: _drafts
     values:

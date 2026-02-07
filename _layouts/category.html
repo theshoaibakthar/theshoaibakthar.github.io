@@ -13,7 +13,9 @@ layout: page
   </h1>
 
   <ul class="content ps-0">
-    {% for post in page.posts %}
+    {% assign portfolio_items = site.portfolio | where_exp: "item", "item.categories contains page.title or item.category == page.title" %}
+    {% assign all_items = page.posts | concat: portfolio_items | sort: 'date' | reverse %}
+    {% for post in all_items %}
       <li class="d-flex justify-content-between px-md-3">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         <span class="dash flex-grow-1"></span>

@@ -2,7 +2,7 @@
 title: Danny's Diner SQL Case Study
 date: 2024-10-15
 permalink: /portfolio/8-Week-SQL-Challenge/Dannys-Diner/
-category: 8 Week SQL Challenge
+categories: [Projects, 8 Week SQL Challenge]
 excerpt: Analyzed customer behavior and sales for a Japanese diner using PostgreSQL. Tackled real-world questions with CTEs and subqueries. Revealed purchase patterns and visit frequency.
 collection: portfolio
 ---
